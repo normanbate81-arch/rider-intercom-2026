@@ -1,0 +1,17 @@
+name: rider_intercom_2026
+description: Mobile-data based motorcycle intercom
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_webrtc: ^0.9.47
+  wakelock_plus: ^1.1.4
+
+flutter:
+  uses-material-design: true
