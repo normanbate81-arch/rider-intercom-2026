@@ -22,7 +22,8 @@ jobs:
         run: flutter build apk --release
 
       - name: Upload APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: rider-intercom-apk
-          path: build/app/outputs/flutter-apk/app-release.apk
+  uses: actions/upload-artifact@v4
+  with:
+    name: ridercom-apk
+    path: build/app/outputs/flutter-apk/app-release.apk
+
