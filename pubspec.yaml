@@ -1,5 +1,5 @@
-name: rider_intercom_2026
-description: Mobile-data based motorcycle intercom
+name: ridercom
+description: Mobile data based motorcycle intercom app
 publish_to: 'none'
 
 version: 1.0.0+1
