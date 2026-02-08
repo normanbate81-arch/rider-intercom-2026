@@ -1,3 +1,5 @@
+appBar: AppBar(title: const Text('Ridercom')),
+
 import 'package:flutter/material.dart';
 import 'ride.dart';
 
